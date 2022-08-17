@@ -15,3 +15,9 @@ I used the React-Calendar for this project. Install the library by executing `np
 
 **Custom Styling For The Calendar**
 To customize the calendar I needed to import the react-calendar styles to MyCalendar.js using `import 'react-calendar/dist/Calendar.css'`
+
+- Go to `'node_modules/react-calendar/dist` and copy the code from `Calendar.css`.  
+- Paste the code in the MyCalendar.css file.
+- Include `import './MyCalendar.css'` at top of MyCalendar.js.
+- Delete `import 'react-calendar/dist/Calendar.css'` from MyCalendar.js.
+
