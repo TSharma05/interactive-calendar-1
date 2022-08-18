@@ -21,3 +21,8 @@ To customize the calendar I needed to import the react-calendar styles to MyCale
 - Include `import './MyCalendar.css'` at top of MyCalendar.js.
 - Delete `import 'react-calendar/dist/Calendar.css'` from MyCalendar.js.
 
+**Read CSV File**
+The CSV file will be read and converted to JSON data to be used in the calendar. To do this you will need to install the papa parse package using the following: `npm install papaparse`
+
+- The necessary code is added to the MyCalendar.js file.  *see the comments in MyCalendar.js for explanation*
+
